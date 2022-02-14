@@ -43,7 +43,19 @@ input:focus {
 	border: 1px solid rgb(105, 103, 103);
 	border-radius: 3px;
 }
-.todo_info {
+.todo_info,
+.todo__task-item {
 	display: flex;
 	justify-content: space-between;
+}
+.todo__delete-item,
+.fa-square{
+	cursor: pointer;
+}
+
+.todo__task-item{
+	padding: 0px 2px 0 3px;
+}
+.fa-square-active	::before{
+	content: '\f14a';
 }
