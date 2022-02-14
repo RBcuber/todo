@@ -1,0 +1,49 @@
+.container {
+	max-width: 400px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+.todo__task-name::after {
+	position: absolute;
+	top: 5px;
+	left: 3px;
+	content: '';
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	border: 1px solid #000;
+	
+}
+.todo__name {
+	margin: 0 auto;
+	text-align: center;
+}
+.todo__task-name input {
+	border: none;
+	padding-left: 30px;
+}
+input:active,
+input:hover,
+input:focus {
+	outline: 0;
+	outline-offset: 0;
+}
+.todo__task-name input::placeholder {
+	color: rgb(105, 103, 103);
+	opacity: 0.3;
+}
+.todo__task-name input:placeholder-shown {
+	color: #000;
+}
+.todo__task {
+	position: relative;
+}
+.todo__task {
+	border: 1px solid rgb(105, 103, 103);
+	border-radius: 3px;
+}
+.todo_info {
+	display: flex;
+	justify-content: space-between;
+}
