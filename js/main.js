@@ -11,6 +11,7 @@ document.onkeyup = function(e) {
                 <span id="todo__task-name">
                     ${document.querySelector('#todo__input-task').value}
                 </span>
+									
             </div>
 	        `;
 			document.querySelector('#todo__input-task').value = '';
