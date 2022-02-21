@@ -1,24 +1,14 @@
-#todo__form::after {
-	position: absolute;
-	top: 5px;
-	left: 3px;
-	content: '';
-	width: 10px;
-	height: 10px;
-	background-color: #fff;
-	border: 1px solid #000;
-	
-}
-#todo__form input {
+
+#todo__input-task {
+	width: 100%;
 	border: none;
-	padding-left: 30px;
 }
 
-#todo__form input::placeholder {
+#todo__input-task::placeholder {
 	color: rgb(105, 103, 103);
 	opacity: 0.3;
 }
-#todo__form input:placeholder-shown {
+#todo__input-task:placeholder-shown {
 	color: #000;
 }
 input:active,
