@@ -1,0 +1,15 @@
+.todo__task-item {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 2px 0 3px;
+}
+
+.todo__delete-item,
+.fa-square{
+	cursor: pointer;
+}
+
+
+.fa-square-active ::before{
+	content: '\f14a';
+}

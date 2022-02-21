@@ -9,34 +9,36 @@
 			crossorigin="anonymous"
 		></script>
 		<!-- <link rel="stylesheet" href="css/reset.css" /> -->
-		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="Styles/main.css"/>
+		<link rel="stylesheet" href="Styles/info.css"/>
+		<link rel="stylesheet" href="Styles/form.css"/>
+		<link rel="stylesheet" href="Styles/list.css"/>
+
 	</head>
 	<body>
 		<div class="todo">
-			<div class="container">
-				<div class="todo__main">
-					<div class="todo__title">
-						<div id="todo__name" class="todo__name">Todo list</div>
-						<div class="todo__task">
-							<div class="todo__task-name">
-								<input
-									id="todo__input-task"
-									class="todo__text"
-									type="text"
-									placeholder="What need to be done?"
-								/>
-							</div>
-							<div id="todo__tasks" class="todo__tasks"></div>
-							<div class="todo_info">
-								<div class="todo__count-item">
-									<span class="todo__counter">0</span> item left
-								</div>
-								<div class="todo__choice">All Active Completed</div>
-								<div class="todo__clear">Clear Companed</div>
-							</div>
-						</div>
+			<div id="todo__title-app">Todo list</div>
+			<div class="todo__wrapper">
+
+					<form id="todo__form">
+						<input
+							id="todo__input-task"
+							type="text"
+							placeholder="What need to be done?"
+						/>
+					</form>
+
+				<div id="todo__list"></div>	
+
+				<div class="todo__info">
+					<div class="todo__count">
+						<span class="todo__counter">0</span> item left
 					</div>
+					<div class="todo__choice">All Active Completed</div>
+					<div class="todo__clear">Clear Companed</div>
 				</div>
+
+
 			</div>
 		</div>
 

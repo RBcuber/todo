@@ -1,0 +1,29 @@
+#todo__form::after {
+	position: absolute;
+	top: 5px;
+	left: 3px;
+	content: '';
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	border: 1px solid #000;
+	
+}
+#todo__form input {
+	border: none;
+	padding-left: 30px;
+}
+
+#todo__form input::placeholder {
+	color: rgb(105, 103, 103);
+	opacity: 0.3;
+}
+#todo__form input:placeholder-shown {
+	color: #000;
+}
+input:active,
+input:hover,
+input:focus {
+	outline: 0;
+	outline-offset: 0;
+}

@@ -1,0 +1,19 @@
+.todo {
+	max-width: 400px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
+#todo__title-app{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.todo__wrapper {
+	position: relative;
+	border: 1px solid rgb(105, 103, 103);
+	border-radius: 3px;
+	padding: 10px;
+}
+
