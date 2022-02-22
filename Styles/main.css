@@ -3,14 +3,14 @@
 }
 
 
-.todo__container {
+.todo {
 	max-width: 800px;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 100px auto 0;
 }
 
-#todo__title-app{
+#todo__title{
 	margin: 0 auto;
 	text-align: center;
 }

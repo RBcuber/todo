@@ -1,14 +1,14 @@
 
-#todo__input-task {
+#form__input {
 	width: 100%;
 	border: none;
 }
 
-#todo__input-task::placeholder {
+#form__input::placeholder {
 	color: rgb(105, 103, 103);
 	opacity: 0.3;
 }
-#todo__input-task:placeholder-shown {
+#form__input:placeholder-shown {
 	color: #000;
 }
 input:active,

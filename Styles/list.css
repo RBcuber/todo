@@ -1,17 +1,17 @@
 
-.todo__item {
+.list__item {
 	display: flex;
 	justify-content: space-between;
 	padding: 0px 2px 0 3px;
 	border-top: 2px solid rgb(92, 92, 92, .1);
 }
 
-.todo__delete-item,
-.checkbox{
+.list__delete-item,
+.list__checkbox{
 	cursor: pointer;
 }
 
 
-.checkbox-active ::before{
+.list__checkbox-active ::before{
 	content: '\f14a';
 }
