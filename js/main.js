@@ -6,7 +6,7 @@ const list = document.querySelector('#todo__list');
 let test;
 let amountItem = 0;
 
-const qwerty = (params) => (`
+const todoItem = (params) => (`
             <div class="todo__item">
 						
                 <div id="todo">
@@ -21,11 +21,11 @@ const qwerty = (params) => (`
 
 form.addEventListener('submit', qwe);
 
-function qwe(e) {
+function addTodoItem(e) {
 	e.preventDefault();
 
 	if (input.value.length) {
-		list.innerHTML += qwerty(input.value);
+		list.innerHTML += todoItem(input.value);
 		input.value = '';
 		counterItem.innerHTML = ++amountItem;
 	}
