@@ -1,0 +1,17 @@
+
+.list__item {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 2px 0 3px;
+	border-top: 2px solid rgb(92, 92, 92, .1);
+}
+
+.list__delete-item,
+.list__checkbox{
+	cursor: pointer;
+}
+
+
+.list__checkbox-active ::before{
+	content: '\f14a';
+}
