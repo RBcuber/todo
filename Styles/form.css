@@ -1,0 +1,19 @@
+
+#form__input {
+	width: 100%;
+	border: none;
+}
+
+#form__input::placeholder {
+	color: rgb(105, 103, 103);
+	opacity: 0.3;
+}
+#form__input:placeholder-shown {
+	color: #000;
+}
+input:active,
+input:hover,
+input:focus {
+	outline: 0;
+	outline-offset: 0;
+}
