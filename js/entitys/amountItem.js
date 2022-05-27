@@ -10,6 +10,7 @@ export const amountItem = {
 	},
 
 	decrement() {
+		console.log(this.taskCount)
 		return --this.taskCount;
 	},
 }
